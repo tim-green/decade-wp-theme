@@ -9,3 +9,15 @@ License: GPL-3.0
 Text Domain: decade
 */
 
+/* control the hover styling of outline block styles */
+.wp-block-button.is-style-outline>.wp-block-button__link:not(.has-background):hover {
+	background-color: var(--wp--preset--color--secondary);
+	color: var(--wp--preset--color--base);
+	border-color: var(--wp--preset--color--secondary);
+}
+
+/* link styles */
+a {
+	text-decoration-thickness: .0625em !important;
+	text-underline-offset: .15em;
+}
